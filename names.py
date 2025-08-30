@@ -12,11 +12,15 @@ def mario():
     jumps: list[int] = [9, -3, 14, 5, 11, -1, 11, 0, 1, 15, 2, 11, 14, 2, 17, 10]
     return ''.join(chr(start + j) for j in jumps).capitalize()
 
+def hasib():
+    values = [72, 97, 115, 105, 98]
+    return ''.join(chr(v) for v in values)
+
 #------------------------------------------------------------------------------
 
 
 # Add your function to the list here
-NAME_FUNCTIONS = [james, mario]
+NAME_FUNCTIONS = [james, mario, hasib]
 
 
 # Don't edit this
