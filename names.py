@@ -20,11 +20,15 @@ def jian():
     Tindex=[74,73,65,78,80,73,78,71,32,67,72,69,78]
     return ''.join(chr(i) for i in Tindex)
 
+def anis():
+    l = [65, 110, 105, 115]
+    return''.join(chr(i) for i in l)
+
 #------------------------------------------------------------------------------
 
 
 # Add your function to the list here
-NAME_FUNCTIONS = [james, mario, hasib, jian]
+NAME_FUNCTIONS = [james, mario, hasib, jian, anis]
 
 
 # Don't edit this

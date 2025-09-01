@@ -17,8 +17,21 @@ Add yourself to the list below. (Please keep the list alphabetized by last name.
 Jianping Chen: alanchen8647
 James Sundstrom: JamesSundstrom
 Hasib Shaif: hasibshaif
+Anis Tarafdar: anistarafdar
 
 
-## Sandbox
+## Idea Box
 
-Optionally, you may edit the below area if you want. For example, you can use this area to experiment with Git/GitHub, or discuss potential project ideas with your classmates.
+Edit below for any idea you're looking to work on with classmates with your name next to it. Feel free to be as broad or descriptive for your idea for now. Listed below are just suggestions of ideas
+
+- Video Game (Anis is interested in this!)
+    - Unreal Engine project?
+    - game engine from scratch?
+- Machine Learning
+    - fafake news detector ?
+    - facial recognition?
+    - image upscaling?
+- Web App
+    - light weight messaging client
+    - ???
+
