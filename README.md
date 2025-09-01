@@ -14,6 +14,7 @@ This assignment is due by the end of the day on Friday, September 5.
 
 Add yourself to the list below. (Please keep the list alphabetized by last name.)
 
+Jianping Chen: alanchen8647
 James Sundstrom: JamesSundstrom
 Hasib Shaif: hasibshaif
 
