@@ -16,11 +16,15 @@ def hasib():
     values = [72, 97, 115, 105, 98]
     return ''.join(chr(v) for v in values)
 
+def jian():
+    Tindex=[74,73,65,78,80,73,78,71,32,67,72,69,78]
+    return ''.join(chr(i) for i in Tindex)
+
 #------------------------------------------------------------------------------
 
 
 # Add your function to the list here
-NAME_FUNCTIONS = [james, mario, hasib]
+NAME_FUNCTIONS = [james, mario, hasib, jian]
 
 
 # Don't edit this
