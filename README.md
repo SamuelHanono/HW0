@@ -19,6 +19,7 @@ James Sundstrom: JamesSundstrom
 Hasib Shaif: hasibshaif
 Anis Tarafdar: anistarafdar
 Gregory Tomchuk: gtomchuk2005
+Samuel Hanono: SamuelHanono
 
 
 ## Idea Box
@@ -35,4 +36,16 @@ Edit below for any idea you're looking to work on with classmates with your name
 - Web App
     - light weight messaging client
     - ???
+- Market Micro-Alpha — ML-guided Pairs Trading (Samuel Hanono)
+    Goal: Predict mean-reversion of price spreads; small, fun, interpretable.
+    Data: Daily OHLCV (2015–2024) for ~30–50 US stocks/ETFs via yfinance.
+    Features: Spread z-score, rolling β, residuals, half-life, RSI(spread), vol.
+    Pair pick: Engle–Granger/Johansen cointegration tests.
+    Labels: Revert ≥ X% within 5 trading days (1/0).
+    Models: Logistic (baseline); Gradient Boosting / Random Forest.
+    Signal: Enter |z| ≥ 2 & model-prob > τ; exit at mean or T+5; size by ATR; costs 2–5 bps.
+    Backtest: Walk-forward by year; ≤5 concurrent pairs; position limits.
+    Metrics: CAGR, Sharpe, max DD, hit-rate, turnover; SHAP for explainability.
+    Deliverables: One clean notebook + backtest.py; 1-page PDF with equity curve.
+    Stretch: 15-min intraday ETFs; improved cost model; Streamlit dashboard.
 

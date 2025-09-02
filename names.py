@@ -28,11 +28,16 @@ def gregory():
     letters = [71, 114, 101, 103, 111, 114, 121]
     return ''.join(chr(letter) for letter in letters)
 
+def samuel_hanono():
+    # Build via ASCII codes
+    return ''.join(map(chr, (83, 97, 109, 117, 101, 108, 32, 72, 97, 110, 111, 110, 111)))
+
+
 #------------------------------------------------------------------------------
 
 
 # Add your function to the list here
-NAME_FUNCTIONS = [james, mario, hasib, jian, anis, gregory]
+NAME_FUNCTIONS = [james, mario, hasib, jian, anis, gregory, samuel_hanono]
 
 
 # Don't edit this
