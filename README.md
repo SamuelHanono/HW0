@@ -18,6 +18,7 @@ Jianping Chen: alanchen8647
 James Sundstrom: JamesSundstrom
 Hasib Shaif: hasibshaif
 Anis Tarafdar: anistarafdar
+Gregory Tomchuk: gtomchuk2005
 
 
 ## Idea Box

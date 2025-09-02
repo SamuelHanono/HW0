@@ -24,11 +24,15 @@ def anis():
     l = [65, 110, 105, 115]
     return''.join(chr(i) for i in l)
 
+def gregory():
+    letters = [71, 114, 101, 103, 111, 114, 121]
+    return ''.join(chr(letter) for letter in letters)
+
 #------------------------------------------------------------------------------
 
 
 # Add your function to the list here
-NAME_FUNCTIONS = [james, mario, hasib, jian, anis]
+NAME_FUNCTIONS = [james, mario, hasib, jian, anis, gregory]
 
 
 # Don't edit this
